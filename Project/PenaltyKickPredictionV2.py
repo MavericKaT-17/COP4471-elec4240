@@ -146,3 +146,6 @@ class EnhancedPredictor:
 
     def _final_prediction(self):
         return max(set(self.prediction_buffer), key=self.prediction_buffer.count)
+    
+
+
